@@ -6,6 +6,8 @@ Solutions are in Ruby and solve for both the small and large datasets. See indiv
 ## [Counting Sheep](./problem_a-counting_sheep/)
 
 ```ruby
+NUMBERS = [*'0'..'9']
+
 def calculate(n)
   return 'INSOMNIA' if n.zero?
 
